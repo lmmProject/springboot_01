@@ -1,0 +1,14 @@
+##开发环境的配置
+#java -jar target/springboot_01-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
+server:
+  port: 8081
+  context-path: /springboot_01
+
+cupSize: B
+age: 18
+content: "cupSize:${cupSize}, age:${age}"
+
+girl:
+  cupSize: C
+  age: 22
+

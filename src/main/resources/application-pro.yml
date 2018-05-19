@@ -1,0 +1,13 @@
+##生产环境的配置
+server:
+  port: 8082
+  context-path: /springboot_01
+
+cupSize: B
+age: 18
+content: "cupSize:${cupSize}, age:${age}"
+
+girl:
+  cupSize: F
+  age: 22
+
